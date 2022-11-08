@@ -1,0 +1,46 @@
+.imagen{
+    max-width:100%;
+}
+
+a{
+    cursor:pointer;
+}
+.alerta{
+    font-weight:700;
+}
+body{
+    background-color: #E3D8D6;
+    overflow-x: hidden;
+}
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+} 
+.modal-content{
+    background-color: #E3D8D6;
+}
+.parrafo{
+    font-weight: 900;
+    font-style: italic;
+}
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    opacity:0;
+}
+
+@media only screen and (max-width: 600px) {
+    .imagen {flex-direction: column};
+    .navbar {flex-direction: row;}
+
+}
